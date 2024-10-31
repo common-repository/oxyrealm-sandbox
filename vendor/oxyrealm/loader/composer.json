@@ -1,0 +1,14 @@
+{
+    "name": "oxyrealm/loader",
+    "authors": [
+        {
+            "name": "oxyrealm",
+            "email": "hello@oxyrealm.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Oxyrealm\\Loader\\": "src"
+        }
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "packages": [
+        {
+            "name": "oxyrealm/loader",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/oxyrealm/loader.git",
+                "reference": "32f52f45b49c9508719082ef8d7af82033d53801"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/oxyrealm/loader/zipball/32f52f45b49c9508719082ef8d7af82033d53801",
+                "reference": "32f52f45b49c9508719082ef8d7af82033d53801",
+                "shasum": ""
+            },
+            "time": "2021-07-07T03:52:34+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Oxyrealm\\Loader\\": "src"
+                }
+            },
+            "authors": [
+                {
+                    "name": "oxyrealm",
+                    "email": "hello@oxyrealm.com"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/oxyrealm/loader/tree/master",
+                "issues": "https://github.com/oxyrealm/loader/issues"
+            },
+            "install-path": "../oxyrealm/loader"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

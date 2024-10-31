@@ -1,0 +1,142 @@
+body {
+  background: #f0f0f1;
+  color: #3c434a;
+}
+
+.sandbox-card {
+  display: flex;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 20px 0 40px;
+  padding: 20px;
+  max-width: 900px;
+}
+.sandbox-card .card-content {
+  margin-left: 10px;
+  width: 100%;
+}
+.sandbox-card input[type=radio] {
+  margin-top: 0px;
+}
+.sandbox-card input[type=text] {
+  width: 100%;
+}
+.sandbox-card h2 {
+  margin: 0;
+  margin-bottom: 5px;
+}
+.sandbox-card .preview-link {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: block;
+}
+.sandbox-card .preview-link-form {
+  position: relative;
+  margin-bottom: 10px;
+}
+.sandbox-card .preview-link-form .sandbox-copy {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  cursor: pointer;
+}
+.sandbox-card .sandbox-description {
+  border: 0px;
+  padding: 0;
+}
+.sandbox-card input.sandbox-description{
+  padding-left: 5px;
+}
+
+.sandbox-description-wrap{
+  display: flex;
+  align-items: center;
+}
+
+.sandbox-description-wrap:before {
+  display: block;
+  content: '';
+  height: 16px;
+  width: 16px;
+  background-image: url('../img/edit.svg');
+  background-size: cover;
+}
+
+.sandbox-button {
+  font-size: 1.2em !important;
+  line-height: 2.15384615;
+  display: inline-block;
+  min-height: 30px;
+  text-decoration: none;
+  text-shadow: none;
+  margin: 0;
+  padding: 0 10px;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  -webkit-appearance: none;
+  border-radius: 3px;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+
+.sandbox-button>.dashicons {
+  vertical-align: middle;
+}
+
+.publish-button {
+  color: #2271b1;
+  border-color: #2271b1;
+  background: #f6f7f7;
+}
+
+.export-button {
+  margin-left: 20px;
+  color: #6b7278;
+  border: 1px solid #7f868d;
+  background: #f8f9fa;
+}
+
+.reset-button {
+  float: right;
+  margin-right: 20px;
+  background: white;
+  border-color: #dba617;
+  color: #dba617;
+}
+
+.reset-button:hover {
+  color: #dba617;
+}
+
+.delete-button {
+  float: right;
+  background: white;
+  border-color: #b32d2e;
+  color: #b32d2e;
+}
+
+.delete-button:hover {
+  color: #b32d2e;
+}
+
+#save-button {
+  font-size: 1.2em !important;
+  display: inline-block;
+  line-height: 2.15384615;
+  min-height: 30px;
+  margin: 0;
+  padding: 0 10px;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  -webkit-appearance: none;
+  border-radius: 3px;
+  white-space: nowrap;
+  box-sizing: border-box;
+  background: #2271b1;
+  border-color: #2271b1;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: none;
+}

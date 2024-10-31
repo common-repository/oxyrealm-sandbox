@@ -1,0 +1,40 @@
+{
+    "version": "0.0.1",
+    "pattern": {
+        "elementor": {
+            "options": [
+                "elementor_",
+                "_elementor_"
+            ],
+            "post_metadata": [
+                "_elementor_"
+            ]
+        },
+        "beaver_builder": {
+            "options": [
+                "fl_builder_",
+                "_fl_builder_"
+            ],
+            "post_metadata": [
+                "_fl_builder_"
+            ]
+        },
+        "site_origin": {
+            "options": [
+                "siteorigin_",
+                "widget_siteorigin"
+            ],
+            "post_metadata": [
+            ]
+        },
+        "divi_builder": {
+            "options": [
+                "et_",
+                "_et_"
+            ],
+            "post_metadata": [
+                "_et_"
+            ]
+        }
+    }
+}
